@@ -102,7 +102,7 @@ def visit_googlemaps_node(self, node):
     if 'balloon' not in node:
         params['iwloc'] = 'B'
 
-    baseurl = "http://maps.google.co.jp/maps?"
+    baseurl = "https://maps.google.co.jp/maps?"
     iframe = """<iframe width="600" height="350" frameborder="0"
                         scrolling="no" marginheight="0"
                         marginwidth="0" src="%s">
